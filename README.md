@@ -1,10 +1,8 @@
-# 🗞 nytexclamations
+# ❗ nytexclamations
 
-Oh my! A sister bot to [@nytquestions](https://github.com/beamalsky/nytquestions).
+Just in case! A sister bot to [@nytquestions](https://github.com/beamalsky/nytquestions).
 
-Checks the [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) every 10 minutes for new exclamations.
-
-Uses Python, tweepy, and Heroku. S/o to [this post](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39) by [Emily Cain](https://emcain.github.io/) for the guiding method.
+Checks the [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) every 10 minutes for new exclamations. Uses Python, tweepy, and Heroku. S/o to [this post](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39) by [Emily Cain](https://emcain.github.io/) for the guiding method.
 
 ## Requirements
 
@@ -12,11 +10,7 @@ Uses Python, tweepy, and Heroku. S/o to [this post](https://dev.to/emcain/how-to
 
 ## Deployment
 
-This app is deployed on Heroku. To deploy what's on the `master` branch:
-
-  ```bash
-  git push heroku master
-  ```
+This app is automatically deployed on Heroku from the master branch.
 
 To check out the logs:
 
