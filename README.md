@@ -1,22 +1,12 @@
 # ❗ nytexclamations
 
-Just in case! A sister bot to [@nytquestions](https://github.com/beamalsky/nytquestions).
+Tweets whenever the @nytimes exclaims. A companion bot to [@nytquestions](https://github.com/beamalsky/nytquestions).
 
 Checks the [Times Wire API](https://developer.nytimes.com/docs/timeswire-product/1/overview) every 10 minutes for new exclamations. Uses Python, tweepy, and Heroku. S/o to [this post](https://dev.to/emcain/how-to-set-up-a-twitter-bot-with-python-and-heroku-1n39) by [Emily Cain](https://emcain.github.io/) for the guiding method.
 
 ## Requirements
 
 - [Docker](https://www.docker.com/)
-
-## Deployment
-
-This app is automatically deployed on Heroku from the master branch.
-
-To check out the logs:
-
-  ```bash
-  heroku logs --tail
-  ```
 
 ## Running the app locally
 
@@ -43,4 +33,14 @@ To get started, run the following from your terminal:
 
   ```bash
   docker-compose run --rm app python bot.py
+  ```
+
+## Deployment
+
+This app is automatically deployed on Heroku from the master branch.
+
+To check out the logs:
+
+  ```bash
+  heroku logs --tail --app nytexclamations
   ```
