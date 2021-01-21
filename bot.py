@@ -5,7 +5,7 @@ from pprint import pprint
 
 from nytexclamations import get_exclamations
 
-LOCAL_DEVELOPMENT = False
+LOCAL_DEVELOPMENT = True
 
 if LOCAL_DEVELOPMENT:
     from secrets import *
